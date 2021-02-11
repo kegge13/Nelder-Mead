@@ -1,7 +1,7 @@
 # Nelder-Mead
 multi-threaded Nelder-Mead optimisation, written in fpc
  ----------------------------------------------------
- Based on adaptive Nelder-Mead with dimension-dependent parameters.
+  Based on adaptive Nelder-Mead with dimension-dependent parameters.
  Fuchang Gao, Lixing Han: Implementing the Nelder-Mead simplex algorithm with adaptive parameters
  Comput Optim Appl, DOI 10.1007/s10589-010-9329-3 [2011]
 
@@ -25,6 +25,6 @@ multi-threaded Nelder-Mead optimisation, written in fpc
  Any restarts will be done with this best result as initial vertex.
  The error function must be thread-save when running in multi-thread mode: it must preserve read-only access
  to all underlying data since multiple threads will call the error function within their own thread.
- ---
+---
  This unit is published under the GNU Lesser General Public License v3 (LGPL-3.0).
  https://tldrlegal.com/license/gnu-lesser-general-public-license-v3-%28lgpl-3%29
